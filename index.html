@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website of Yasir Khan, showcasing web development skills, projects, and contact information.">
+    <meta name="keywords" content="Yasir Khan, Portfolio, Web Development, Software Development, Contact, Skills">
+    <meta name="author" content="Yasir Khan">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Yasir Khan | Portfolio">
+    <meta property="og:description" content="Explore the portfolio of Yasir Khan, a skilled web developer with expertise in modern technologies.">
+    <meta property="og:image" content="Images/og-image.jpg">
+    <meta property="og:url" content="https://www.ykdeveloper.zya.me">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Yasir Khan | Portfolio">
+    <meta name="twitter:description" content="Discover Yasir Khan's portfolio and get in touch for collaboration and services.">
+    <meta name="twitter:image" content="Images/twitter-image.jpg">
+    <title>Yasir Khan | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topbar bg-dark text-white px-4 py-3">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-start g-3">
+                <!-- Help Section -->
+                <div class="col-12 col-md-4">
+                    <a href="#contact" class="text-decoration-none text-white">
+                        <i class="fas fa-life-ring me-2"></i>24/7 Help
+                    </a>
+                </div>
+                <!-- Services Notice Section -->
+                <div class="col-12 col-md-4">
+                    <p class="mb-0">Professional web development, software solutions.</p>
+                </div>
+                <!-- Social Links Section -->
+                <div class="col-12 col-md-4 text-md-end">
+                    <a href="https://www.facebook.com/profile.php?id=61571961085646" class="text-decoration-none text-white facebook me-3">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCu8uBQqqnZZnsytoDLhVczg" class="text-decoration-none text-white youtube me-3">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yasir-khan-731347346" class="text-decoration-none text-white linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <!-- Logo and Title -->
+            <a class="navbar-brand d-flex align-items-center" href="/">
+                <img src="Images/Yasir Logo-2.png" alt="My-logo">
+                <h1 class="ms-2">YASIR<span id="main-titlespan">KHAN</span></h1>
+            </a>
+
+            <!-- Toggle Button for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Items -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services"><i class="fas fa-cogs"></i> Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills"><i class="fas fa-code"></i> Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials"><i class="fas fa-comments"></i> Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq"><i class="fas fa-question-circle"></i> FAQ's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                    </li>
+                </ul>
+                <!-- Hire Me Button -->
+                <div class="ms-lg-3">
+                    <a href="#contact" class="btn hire-me-btn">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Video Background -->
+        <video autoplay muted loop>
+            <source src="Videos/Marketing Business_3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Content Overlay -->
+        <div class="content">
+            <h1>Welcome to My Freelancing Portfolio</h1>
+            <p>Professional Web Development, Graphic Design, and More!</p>
+            <a href="#contact" class="btn hire-me-btn">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- Award Section -->
+    <section class="award-section">
+        <h2 class="award-title">My Achievements</h2>
+        <div class="container">
+            <div class="row gy-4">
+                <!-- Projects Completed -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="award-card">
+                        <div class="award-number" data-count="150">0</div>
+                        <div class="award-description">Projects Completed</div>
+                    </div>
+                </div>
+                <!-- Happy Clients -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="award-card">
+                        <div class="award-number" data-count="100">0</div>
+                        <div class="award-description">Happy Clients</div>
+                    </div>
+                </div>
+                <!-- Years of Experience -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="award-card">
+                        <div class="award-number" data-count="5">0</div>
+                        <div class="award-description">Years of Experience</div>
+                    </div>
+                </div>
+                <!-- Awards Won -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="award-card">
+                        <div class="award-number" data-count="10">0</div>
+                        <div class="award-description">Awards Won</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <!-- Image Section -->
+                <img src="Images/my new image.jpg" alt="Yasir Khan" class="about-img">
+                <!-- Text Section -->
+                <div>
+                    <h2 class="about-title">About Me</h2>
+                    <p class="about-text">
+                        Hello! I am <strong>Yasir Khan</strong>, a highly skilled and dedicated professional with a
+                        proven track record in web and software development. Leveraging expertise in modern technologies
+                        such as HTML, CSS, JavaScript, PHP, and MySQL, I specialize in creating user-centric,
+                        innovative, and efficient digital solutions.
+                    </p>
+                    <p class="about-text">
+                        Beyond development, I excel in graphic design and video editing, using tools like Canva and
+                        CapCut to create visually compelling media. I am passionate about bringing creative ideas to
+                        life and delivering results that exceed expectations.
+                    </p>
+                    <p class="about-text">
+                        Whether it’s building dynamic websites, designing eye-catching graphics, or editing engaging
+                        videos, I strive to provide top-quality services tailored to your needs. Let’s collaborate to
+                        turn your vision into reality.
+                    </p>
+                    <div class="about-btn">
+                        <a href="#contact">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <div class="skills-section" id="skills">
+        <div class="container">
+            <h2 class="text-center mb-5">My Skills</h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">HTML <span class="float-end">90%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 0%;" data-skill="90">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">CSS <span class="float-end">80%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" data-skill="80">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">Bootstrap <span class="float-end">60%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 0%;" data-skill="60"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">JavaScript <span class="float-end">70%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 0%;" data-skill="70">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">PHP <span class="float-end">60%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" data-skill="60"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">MySQL <span class="float-end">70%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 0%;" data-skill="70">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">VB.NET <span class="float-end">80%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" data-skill="80">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">C#.NET <span class="float-end">70%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 0%;" data-skill="70"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">SQL <span class="float-end">70%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 0%;" data-skill="70">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">MS Word <span class="float-end">90%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" data-skill="90"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">MS Excel <span class="float-end">60%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 0%;" data-skill="60">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">MS Access <span class="float-end">80%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 0%;" data-skill="80">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">MS PowerPoint <span class="float-end">80%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 0%;" data-skill="80"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">CapCut <span class="float-end">80%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 0%;" data-skill="80">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <div class="skill-title">Canva <span class="float-end">80%</span></div>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 0%;" data-skill="80"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services section  -->
+
+    <div class="services-section" id="services">
+        <div class="container">
+            <h2 class="text-center mb-5">My Services</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">🌐</div>
+                        <div class="service-title">Website Development</div>
+                        <p class="service-description">Building responsive and functional websites using HTML, CSS,
+                            Bootstrap, JavaScript, PHP, and MySQL.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">🔧</div>
+                        <div class="service-title">WordPress Development</div>
+                        <p class="service-description">Custom theme and plugin development, and creating WordPress
+                            websites and applications.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">💻</div>
+                        <div class="service-title">Desktop Applications</div>
+                        <p class="service-description">Developing desktop applications using VB.NET, C#.NET, and SQL.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">📊</div>
+                        <div class="service-title">Data Management</div>
+                        <p class="service-description">Managing data efficiently with MS Access, Excel, and SQL
+                            databases.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">📄</div>
+                        <div class="service-title">Document Creation</div>
+                        <p class="service-description">Creating professional documents and presentations using MS Word
+                            and PowerPoint.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">🎨</div>
+                        <div class="service-title">Graphic Design</div>
+                        <p class="service-description">Designing creative visuals using Canva for social media,
+                            marketing, and more.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">🎥</div>
+                        <div class="service-title">Video Editing</div>
+                        <p class="service-description">Editing professional videos using CapCut for various purposes.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">🔍</div>
+                        <div class="service-title">SEO Optimization</div>
+                        <p class="service-description">Improving website visibility and search engine rankings with SEO
+                            best practices.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card p-4 text-center">
+                        <div class="service-icon">📱</div>
+                        <div class="service-title">Mobile-Friendly Design</div>
+                        <p class="service-description">Creating mobile-responsive and user-friendly website designs for
+                            all devices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Testimonials Section -->
+
+    <div class="testimonials-section" id="testimonials">
+        <div class="container testimonials-container">
+            <h2 class="text-center mb-5">What Our Clients Say</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Testimonial 1 -->
+                    <div class="carousel-item active">
+                        <div class="testimonial-slide">
+                            <div class="testimonial-image">
+                                <img src="Images/John Doe.jfif" alt="John Doe">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="testimonial-author">John Doe</div>
+                                <div class="testimonial-role">CEO, Tech Solutions</div>
+                                <div class="testimonial-text">"Their expertise in web development transformed my
+                                    business. The website is now user-friendly and visually appealing. Excellent
+                                    communication throughout the project!"</div>
+                                <div class="testimonial-details">
+                                    They provided end-to-end solutions for our e-commerce platform, integrating advanced
+                                    functionalities such as real-time analytics, responsive design, and secure payment
+                                    gateways. Their agile approach and consistent updates kept us in the loop at every
+                                    stage.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-slide">
+                            <div class="testimonial-image">
+                                <img src="Images/Jane Smith.jfif" alt="Jane Smith">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="testimonial-author">Jane Smith</div>
+                                <div class="testimonial-role">Freelance Blogger</div>
+                                <div class="testimonial-text">"The WordPress customization they provided was beyond my
+                                    expectations. Their attention to detail and professionalism are unmatched."</div>
+                                <div class="testimonial-details">
+                                    They developed a fully customized blogging platform tailored to my requirements,
+                                    with advanced SEO optimizations, social media integrations, and an intuitive content
+                                    management system that streamlined my workflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-slide">
+                            <div class="testimonial-image">
+                                <img src="Images/Emily Brown.jfif" alt="Emily Brown">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="testimonial-author">Emily Brown</div>
+                                <div class="testimonial-role">Content Creator</div>
+                                <div class="testimonial-text">"The video editing service brought my ideas to life. My
+                                    social media content now stands out with engaging visuals and smooth transitions."
+                                </div>
+                                <div class="testimonial-details">
+                                    From storyboard creation to final production, their team delivered exceptional
+                                    results. They incorporated creative transitions, enhanced audio quality, and ensured
+                                    the videos aligned perfectly with my brand identity.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- faq's section  -->
+
+    <div class="faq-section" id="faq">
+        <div class="container faq-container">
+            <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <!-- FAQ Item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                            What is Web Development?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Web development is the process of building and maintaining websites. It involves aspects
+                            such as web design, content development, client-side/server-side scripting, and database
+                            management.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading2">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                            What is WordPress?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            WordPress is a content management system (CMS) that allows you to create and manage websites
+                            easily, offering flexibility, a large community, and a wide range of themes and plugins.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading3">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                            How can I improve my website's SEO?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            SEO (Search Engine Optimization) can be improved by optimizing website content with relevant
+                            keywords, ensuring mobile-friendliness, improving page loading speed, and acquiring quality
+                            backlinks.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading4">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                            What is the difference between front-end and back-end development?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Front-end development involves creating the visual aspects of a website, such as layout,
+                            design, and interactions. Back-end development focuses on server-side functions, databases,
+                            and logic behind the scenes.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading5">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                            How long does it take to build a website?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            The time it takes to build a website depends on its complexity. Simple websites may take a
+                            few days, while more complex ones can take weeks or even months to complete.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 6 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading6">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                            What is responsive web design?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Responsive web design is an approach to designing websites so that they look good and work
+                            well on devices of all screen sizes, from desktop monitors to mobile phones.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 7 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading7">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse7" aria-expanded="false" aria-controls="faqCollapse7">
+                            What are plugins in WordPress?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse7" class="accordion-collapse collapse" aria-labelledby="faqHeading7"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Plugins are additional pieces of software that can be installed in WordPress to add extra
+                            features or functionality to your website, such as contact forms, SEO tools, and more.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 8 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading8">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse8" aria-expanded="false" aria-controls="faqCollapse8">
+                            How do I secure my website?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse8" class="accordion-collapse collapse" aria-labelledby="faqHeading8"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Securing a website involves practices such as using HTTPS, regularly updating software,
+                            using strong passwords, backing up your site, and implementing security plugins.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 9 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading9">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse9" aria-expanded="false" aria-controls="faqCollapse9">
+                            What is a Content Management System (CMS)?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse9" class="accordion-collapse collapse" aria-labelledby="faqHeading9"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            A Content Management System (CMS) is software used to create and manage digital content.
+                            WordPress, Joomla, and Drupal are examples of popular CMS platforms.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 10 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading10">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse10" aria-expanded="false" aria-controls="faqCollapse10">
+                            What is eCommerce?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse10" class="accordion-collapse collapse" aria-labelledby="faqHeading10"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            eCommerce refers to the buying and selling of goods or services using the internet. It
+                            involves online transactions, shopping carts, and payment processing systems.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 11 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading11">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse11" aria-expanded="false" aria-controls="faqCollapse11">
+                            What is the difference between a website and a web app?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse11" class="accordion-collapse collapse" aria-labelledby="faqHeading11"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            A website typically displays static content, while a web app is an interactive software
+                            application accessible through a web browser that allows users to perform tasks.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 12 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading12">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse12" aria-expanded="false" aria-controls="faqCollapse12">
+                            What is hosting?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse12" class="accordion-collapse collapse" aria-labelledby="faqHeading12"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Hosting is a service that allows individuals and organizations to make their websites
+                            accessible on the internet. It involves storing files and data on a server.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 13 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading13">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse13" aria-expanded="false" aria-controls="faqCollapse13">
+                            What is SSL and why is it important?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse13" class="accordion-collapse collapse" aria-labelledby="faqHeading13"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            SSL (Secure Sockets Layer) is a security protocol that encrypts data between a user and a
+                            website. It is important because it ensures secure communication and protects sensitive
+                            information.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 14 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading14">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse14" aria-expanded="false" aria-controls="faqCollapse14">
+                            What is cloud hosting?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse14" class="accordion-collapse collapse" aria-labelledby="faqHeading14"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Cloud hosting is a type of web hosting where your website is hosted on multiple servers,
+                            providing better scalability, uptime, and performance compared to traditional hosting.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 15 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading15">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse15" aria-expanded="false" aria-controls="faqCollapse15">
+                            How do I choose a web hosting provider?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse15" class="accordion-collapse collapse" aria-labelledby="faqHeading15"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            When choosing a web hosting provider, consider factors such as uptime guarantees, customer
+                            support, scalability, pricing, and the specific needs of your website (e.g., WordPress,
+                            eCommerce).
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 16 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading16">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse16" aria-expanded="false" aria-controls="faqCollapse16">
+                            What is the importance of a website's loading speed?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse16" class="accordion-collapse collapse" aria-labelledby="faqHeading16"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            A fast loading website is crucial for user experience, retention, and SEO. Slow websites
+                            lead to higher bounce rates and lower search engine rankings.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 17 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading17">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse17" aria-expanded="false" aria-controls="faqCollapse17">
+                            How do I improve my website's loading speed?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse17" class="accordion-collapse collapse" aria-labelledby="faqHeading17"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            You can improve your website's loading speed by optimizing images, minifying CSS and
+                            JavaScript, using a Content Delivery Network (CDN), and enabling browser caching.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 18 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading18">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse18" aria-expanded="false" aria-controls="faqCollapse18">
+                            What is the difference between HTTP and HTTPS?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse18" class="accordion-collapse collapse" aria-labelledby="faqHeading18"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            HTTPS is the secure version of HTTP, which encrypts the data between the user's browser and
+                            the website. It is essential for security, especially for sites handling sensitive
+                            information like passwords and payments.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 19 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading19">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse19" aria-expanded="false" aria-controls="faqCollapse19">
+                            What are the advantages of using WordPress for a website?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse19" class="accordion-collapse collapse" aria-labelledby="faqHeading19"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            WordPress is easy to use, flexible, and customizable. It has a large selection of themes and
+                            plugins, is SEO-friendly, and is supported by a massive community.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 20 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading20">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapse20" aria-expanded="false" aria-controls="faqCollapse20">
+                            What is the best way to market my website?
+                        </button>
+                    </h2>
+                    <div id="faqCollapse20" class="accordion-collapse collapse" aria-labelledby="faqHeading20"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            The best ways to market your website include SEO, content marketing, social media, email
+                            marketing, and running paid ads such as Google Ads or Facebook Ads.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section  -->
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Get in Touch</h2>
+            <p class="text-center mb-5">I'd love to hear from you! Feel free to reach out via the form below or contact me directly.</p>
+            <div class="row g-4">
+                <!-- Contact Form -->
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <form action="contact_form_handler.php" method="POST" autocomplete="off">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Your Email</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-submit w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Contact Info -->
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h3>Contact Info</h3>
+                        <ul class="list-unstyled">
+                            <li><strong>Email:</strong> <a href="mailto:ykdeveloper.org1@gmail.com">ykdeveloper.org1@gmail.com</a></li>
+                            <li><strong>Phone:</strong> <a href="tel:+923250308656">+92 325 030 8656</a></li>
+                            <li><strong>Address:</strong> Rahim Yar Khan, Punjab, Pakistan</li>
+                        </ul>
+                        <div class="social-links d-flex gap-3 mt-3">
+                            <a href="https://www.facebook.com/profile.php?id=61571961085646" target="_blank"><img src="Images/facebook-icon.jpg" alt="Facebook"></a>
+                            <a href="https://www.linkedin.com/in/yasir-khan-731347346" target="_blank"><img src="Images/linkedin-icon.jpg" alt="LinkedIn"></a>
+                            <a href="https://www.youtube.com/channel/UCu8uBQqqnZZnsytoDLhVczg" target="_blank"><img src="Images/youtube.jpg" alt="Youtube"></a>
+                            <a href="https://www.tiktok.com/@yasirkhan9944?_t=ZS-8t149oFIEhG&_r=1" target="_blank"><img src="Images/Tiktok.jpg" alt="TikTok"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <!-- About Section -->
+                <div class="col-lg-4">
+                    <h3>About Me</h3>
+                    <p>I'm Yasir Khan, a versatile developer passionate about web development, software solutions, and IT training. Let's connect!</p>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-lg-4">
+                    <h3>Quick Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Info -->
+                <div class="col-lg-4">
+                    <h3>Contact Info</h3>
+                    <ul class="list-unstyled">
+                        <li><strong id="footer_strong">Email:</strong> <a href="mailto:ykdeveloper.org1@gmail.com">ykdeveloper.org1@gmail.com</a></li>
+                        <li><strong id="footer_strong">Phone:</strong> <a href="tel:+923250308656">+92 325 030 8656</a></li>
+                        <li><strong id="footer_strong">Location:</strong> Rahim Yar Khan, Punjab, Pakistan</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Social Media -->
+            <div class="text-center mt-4">
+                <div class="footer-social d-flex justify-content-center gap-3">
+                    <a href="https://www.facebook.com/profile.php?id=61571961085646" target="_blank"><img src="Images/facebook-icon.jpg" alt="Facebook"></a>
+                    <a href="https://www.linkedin.com/in/yasir-khan-731347346" target="_blank"><img src="Images/linkedin-icon.jpg" alt="LinkedIn"></a>
+                    <a href="https://www.youtube.com/channel/UCu8uBQqqnZZnsytoDLhVczg" target="_blank"><img src="Images/youtube.jpg" alt="Youtube"></a>
+                    <a href="https://www.tiktok.com/@yasirkhan9944?_t=ZS-8t149oFIEhG&_r=1" target="_blank"><img src="Images/Tiktok.jpg" alt="TikTok"></a>
+                </div>
+            </div>
+            <!-- Footer Bottom -->
+            <div class="footer-bottom text-center mt-3">
+                <p>&copy; 2024 Yasir Khan. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+<a href="https://wa.me/923250308656" target="_blank" class="whatsapp-btn" aria-label="Chat on WhatsApp" id="whatsapp_a">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  
+  <!-- Scroll to Top Button -->
+  <button id="scrollToTopBtn" aria-label="Scroll to Top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+  
+  
+    <!-- Font Awesome CDN for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
